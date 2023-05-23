@@ -14,3 +14,7 @@
     --bs-btn-disabled-border-color: #207ce6;
     --bs-gradient: none;
 }
+
+.filtro{
+    position: fixed;
+}
