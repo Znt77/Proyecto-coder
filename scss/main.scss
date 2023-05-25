@@ -43,3 +43,8 @@ $color-principal: blue;
         padding-bottom: 7px;
     }
 }
+.container__padding{
+    &--top{
+        padding-top: 30px;
+    }
+}
