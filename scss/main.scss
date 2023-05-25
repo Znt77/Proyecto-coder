@@ -35,3 +35,11 @@ $color-principal: blue;
         background-color: red;
     }
 }
+
+.ul__sobrenos{
+    padding-top: 15px;
+    &--item{
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
