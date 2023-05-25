@@ -18,3 +18,20 @@
 .filtro{
     position: fixed;
 }
+$color-principal: blue;
+.carousel__text{
+
+    &--titulo{
+        color: rgb(182, 182, 182);
+        font-size: 2rem;
+    }
+    &--desc{
+        color: white;
+    }
+}
+
+.container__background{
+    &index1{
+        background-color: red;
+    }
+}

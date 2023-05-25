@@ -1,20 +1,34 @@
-.boton-busqueda-navbar{
-    --bs-btn-color: #207ce6;
-    --bs-btn-border-color: #207ce6;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #207ce6;
-    --bs-btn-hover-border-color: #207ce6;
-    --bs-btn-focus-shadow-rgb: 25,135,84;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #207ce6;
-    --bs-btn-active-border-color: #207ce6;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #207ce6;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #207ce6;
-    --bs-gradient: none;
+.boton-busqueda-navbar {
+  --bs-btn-color: #207ce6;
+  --bs-btn-border-color: #207ce6;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #207ce6;
+  --bs-btn-hover-border-color: #207ce6;
+  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #207ce6;
+  --bs-btn-active-border-color: #207ce6;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #207ce6;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #207ce6;
+  --bs-gradient: none;
 }
 
-.filtro{
-    position: fixed;
+.filtro {
+  position: fixed;
 }
+
+.carousel__text--titulo {
+  color: rgb(182, 182, 182);
+  font-size: 2rem;
+}
+.carousel__text--desc {
+  color: white;
+}
+
+.container__backgroundindex1 {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
