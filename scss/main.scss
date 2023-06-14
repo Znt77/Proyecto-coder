@@ -48,3 +48,13 @@ $color-principal: blue;
         padding-top: 30px;
     }
 }
+.formulario{
+    &__servicios{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        &--item{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+}
