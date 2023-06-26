@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "peace-sans";
+  src: url("../fonts/peace-sans.otf");
+}
+@font-face {
+  font-family: "megapunch";
+  src: url("../fonts/megapunch.ttf");
+}
+@font-face {
+  font-family: "all-things-must-pass";
+  src: url("../fonts/all-things-must-pass.ttf");
+}
 .carousel__text--titulo {
   color: rgb(182, 182, 182);
   font-size: 2rem;
@@ -258,6 +270,13 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.titulo__importante--hardware {
+  font-family: "peace-sans";
+}
+.titulo__importante--software {
+  font-family: "peace-sans";
 }
 
 /*# sourceMappingURL=style.css.map */

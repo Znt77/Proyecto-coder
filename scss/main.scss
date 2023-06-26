@@ -31,7 +31,22 @@
     padding: 0;
 }
 
-$color-principal: blue;
+$custom-fonts-path: "../fonts/";
+
+@font-face {
+    font-family: 'peace-sans';
+    src: url('../fonts/peace-sans.otf');
+}
+
+@font-face {
+    font-family: 'megapunch';
+    src: url('../fonts/megapunch.ttf');
+}
+
+@font-face {
+    font-family: 'all-things-must-pass';
+    src: url('../fonts/all-things-must-pass.ttf');
+}
 
 .carousel__text {
 
@@ -211,16 +226,29 @@ $color-principal: blue;
         transform: scale(1.05);
     }
 }
+
 .map-responsive {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
+
     & iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+    }
+}
+
+.titulo {
+    &__importante {
+        &--hardware {
+            font-family: 'peace-sans';
+        }
+        &--software {
+            font-family: 'peace-sans';
+        }
     }
 }
