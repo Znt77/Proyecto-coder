@@ -181,3 +181,11 @@ $color-principal: blue;
         }
     }
 }
+.escalar{
+    &:hover{
+        transition-duration: 1s;
+        transition-property: all;
+        transition-timing-function: ease;
+        transform: scale(1.05);
+    }
+}
