@@ -10,129 +10,131 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<header>
-    <!-- ==================NAVBAR================== -->
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="../img/zpc-logo.png" alt="" class="w-50"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Nuestros productos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./hardware.html">Hardware</a></li>
-                            <li><a class="dropdown-item" href="./software.html">Software</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./nuestros-servicios.html">¡Pedí un técnico!</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contáctanos</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-                    <button class="btn btn-outline-success boton-busqueda-navbar" type="submit">Buscar</button>
-                </form>
+
+<body>
+    <header>
+        <!-- ==================NAVBAR================== -->
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="../img/zpc-logo.png" alt="" class="w-50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Nuestros productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./hardware.html">Hardware</a></li>
+                                <li><a class="dropdown-item" href="./software.html">Software</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nuestros-servicios.html">¡Pedí un técnico!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+                        <button class="btn btn-outline-success boton-busqueda-navbar" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
-<main>
-    <!-- ================Formulario para pedir un técnico=============== -->
-    <div class="row justify-content-center">
-        <div class="col-lg-8">
-            <div class="container bg-secondary">
-                <h1 class="text-center">¿Necesitas ayuda? Nosotros somos tu solución.</h1>
-                <form action="#" method="POST" class="formulario__servicios">
-                    <div class="form-group formulario__servicios--item">
-                        <label for="name">Nombre y Apellido:</label>
-                        <input type="text" class="form-control" id="name" name="name" required
-                            placeholder="Nombre y apellido">
-                    </div>
-                    <div class="form-group formulario__servicios--item">
-                        <label for="email">Correo electrónico:</label>
-                        <input type="email" class="form-control" id="email" name="email" required
-                            placeholder="juanpepito@gmail.com">
-                    </div>
-                    <select class="form-select formulario__servicios--item" aria-label="Default select example">
-                        <option selected>¿Qué crees que tiene tu PC?</option>
-                        <option value="1">Virus</option>
-                        <option value="2">Falla en software</option>
-                        <option value="3">Falla en hardware</option>
-                        <option value="4">Necesidad de mantenimiento</option>
-                    </select>
-                    <div class="form-group formulario__servicios--item">
-                        <label for="message">Coméntanos sobre lo que está ocurriendo con tu PC:</label>
-                        <textarea class="form-control" id="message" name="message" rows="5" required
-                            placeholder="Mi pc tiene estos problemas..."></textarea>
-                    </div>
-                    <button type="submit formulario__servicios--item" class="btn btn-primary">Enviar</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</main>
-<!-- ===============NAVBAR BOTTOM=============== -->
-<footer class="text-bg-dark p-3">
-    <div class="container">
+        </nav>
+    </header>
+    <main>
+        <!-- ================Formulario para pedir un técnico=============== -->
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4">
-                <h3 class="footer__title--zpc">zComputación</h3>
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./hardware.html">Hardware</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./software.html">Software</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./nuestros-servicios.html">¡Pedí un técnico!</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contáctanos</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <h3 class="footer__title--seguinos">Seguinos en nuestras redes</h3>
-                <ul class="justify-content-center">
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">TikTok</a></li>
-                    <li><a href="">WhatsApp</a></li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-4">
-                <h3 class="footer__title--subscribe">Recibe novedades de nuestros productos!</h3>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Dirección de Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="tunombre@email.com">
+            <div class="col-lg-8">
+                <div class="container bg-secondary">
+                    <h1 class="text-center">¿Necesitas ayuda? Nosotros somos tu solución.</h1>
+                    <form action="#" method="POST" class="formulario__servicios">
+                        <div class="form-group formulario__servicios--item">
+                            <label for="name">Nombre y Apellido:</label>
+                            <input type="text" class="form-control" id="name" name="name" required
+                                placeholder="Nombre y apellido">
+                        </div>
+                        <div class="form-group formulario__servicios--item">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="email" name="email" required
+                                placeholder="juanpepito@gmail.com">
+                        </div>
+                        <select class="form-select formulario__servicios--item" aria-label="Default select example">
+                            <option selected>¿Qué crees que tiene tu PC?</option>
+                            <option value="1">Virus</option>
+                            <option value="2">Falla en software</option>
+                            <option value="3">Falla en hardware</option>
+                            <option value="4">Necesidad de mantenimiento</option>
+                        </select>
+                        <div class="form-group formulario__servicios--item">
+                            <label for="message">Coméntanos sobre lo que está ocurriendo con tu PC:</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required
+                                placeholder="Mi pc tiene estos problemas..."></textarea>
+                        </div>
+                        <button type="submit formulario__servicios--item" class="btn btn-primary">Enviar</button>
+                    </form>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </main>
+    <!-- ===============NAVBAR BOTTOM=============== -->
+    <footer class="text-bg-dark p-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h3 class="footer__title--zpc">zComputación</h3>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./hardware.html">Hardware</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./software.html">Software</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nuestros-servicios.html">¡Pedí un técnico!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h3 class="footer__title--seguinos">Seguinos en nuestras redes</h3>
+                    <ul class="justify-content-center">
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">TikTok</a></li>
+                        <li><a href="">WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="footer__title--subscribe">Recibe novedades de nuestros productos!</h3>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Dirección de Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="tunombre@email.com">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 

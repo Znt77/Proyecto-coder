@@ -1,20 +1,3 @@
-.boton-busqueda-navbar {
-  --bs-btn-color: #207ce6;
-  --bs-btn-border-color: #207ce6;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #207ce6;
-  --bs-btn-hover-border-color: #207ce6;
-  --bs-btn-focus-shadow-rgb: 25,135,84;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #207ce6;
-  --bs-btn-active-border-color: #207ce6;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #207ce6;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #207ce6;
-  --bs-gradient: none;
-}
-
 .filtro {
   position: fixed;
 }
@@ -50,6 +33,108 @@
 .formulario__servicios--item {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.btn__navbar--search {
+  --bs-btn-color: #207ce6;
+  --bs-btn-border-color: #207ce6;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #207ce6;
+  --bs-btn-hover-border-color: #207ce6;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #207ce6;
+  --bs-btn-active-border-color: #207ce6;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #207ce6;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #207ce6;
+  --bs-gradient: none;
+}
+.btn__navbar--search:hover [transition-style="in:circle:center"] {
+  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
+}
+@keyframes circle-in-center {
+  from {
+    clip-path: circle(0%);
+  }
+  to {
+    clip-path: circle(125%);
+  }
+}
+
+.footer {
+  margin-top: 20px;
+}
+.footer__item--index {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.footer__item--redes {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.footer__btn--fb {
+  background-color: #207ce6;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer__btn--ig {
+  background-color: #3f729b;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer__btn--tiktok {
+  background-color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer__btn--wsp {
+  background-color: rgb(68, 206, 68);
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer__btn--nav {
+  background-color: #207ce6;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
