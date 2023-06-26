@@ -49,7 +49,6 @@ $custom-fonts-path: "../fonts/";
 }
 
 .carousel__text {
-
     &--titulo {
         color: rgb(182, 182, 182);
         font-size: 2rem;
@@ -75,9 +74,11 @@ $custom-fonts-path: "../fonts/";
     }
 }
 
-.container__padding {
-    &--top {
-        padding-top: 30px;
+.container {
+    &__padding {
+        &--top {
+            padding-top: 30px;
+        }
     }
 }
 
@@ -247,13 +248,16 @@ $custom-fonts-path: "../fonts/";
         &--hardware {
             font-family: 'peace-sans';
         }
+
         &--software {
             font-family: 'peace-sans';
         }
-        &--sobre{
+
+        &--sobre {
             font-family: 'peace-sans';
         }
-        &--encuentranos{
+
+        &--encuentranos {
             font-family: 'peace-sans';
         }
     }
