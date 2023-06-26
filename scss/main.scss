@@ -28,9 +28,6 @@
     list-style-type: none;
     padding: 0;
 }
-.filtro {
-    position: fixed;
-}
 
 $color-principal: blue;
 
@@ -142,4 +139,45 @@ $color-principal: blue;
 }
 .lista-centrada{
     @include ul-centrada;
+}
+.filtro{
+    background-image: url(../img/formato-historia-z.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    &__btn{
+        &--mices{
+            background-color: #2B59C3;
+            @include btn;
+        }
+        &--keyboards{
+            background-color: #253C78;
+            @include btn;
+        }
+        &--vcards{
+            background-color: #E2B6CF;
+            @include btn;
+        }
+        &--headphones{
+            background-color: #E396DF;
+            @include btn;
+        }
+        &--mic{
+            background-color: #E365C1;
+            @include btn;
+        }
+        &--programas{
+            background-color: #EAC435;
+            @include btn;
+        }
+        &--linux{
+            background-color: #e65f20;
+            @include btn;
+        }
+        &--windows{
+            background-color: #61abff;
+            @include btn;
+        }
+    }
 }

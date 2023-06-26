@@ -56,11 +56,11 @@
         <div class="container-fluid productos">
             <div class="row row-cols-1 row-cols-sm-3 row-cols-md-5 g-3">
                 <div class="col">
-                    <h1>Software</h1>
-                    <ul class="justify-content-center">
-                        <li class="footer__item--redes"><a href="#" class="footer__btn--fb"><i class="bi bi-windows"></i>  Windows</a></li>
-                        <li class="footer__item--redes"><a href="#" class="footer__btn--ig"><i class="bi bi-ubuntu"></i>  Linux</a></li>
-                        <li class="footer__item--redes"><a href="#" class="footer__btn--tiktok"><i class="bi bi-window"></i>  Programas esenciales</a></li>
+                    <ul class="lista-centrada filtro">
+                        <li><h1>Software</h1></li>
+                        <li class="footer__item--redes"><a href="#" class="filtro__btn--windows"><i class="bi bi-windows"></i>  Windows</a></li>
+                        <li class="footer__item--redes"><a href="#" class="filtro__btn--linux"><i class="bi bi-ubuntu"></i>  Linux</a></li>
+                        <li class="footer__item--redes"><a href="#" class="filtro__btn--programas"><i class="bi bi-window"></i>  Programas esenciales</a></li>
                     </ul>
                 </div>
                 <div class="col">
@@ -276,53 +276,60 @@
             </div>
         </div>
     </main>
-<footer class="text-bg-dark p-3 footer">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4">
-                <h3 class="footer__title--zpc">zComputación</h3>
-                <ul class="justify-content-center">
-                    <li class="footer__item--index">
-                        <a class="footer__btn--nav" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="footer__item--index">
-                        <a class="footer__btn--nav" href="./hardware.html">Hardware</a>
-                    </li>
-                    <li class="footer__item--index">
-                        <a class="footer__btn--nav" href="./software.html">Software</a>
-                    </li>
-                    <li class="footer__item--index">
-                        <a class="footer__btn--nav" href="./nuestros-servicios.html">¡Pedí un técnico!</a>
-                    </li>
-                    <li class="footer__item--index">
-                        <a class="footer__btn--nav" href="./contacto.html">Contáctanos</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4">
-                <h3 class="footer__title--seguinos">Seguinos en nuestras redes</h3>
-                <ul class="justify-content-center">
-                    <li class="footer__item--redes"><a href="#" class="footer__btn--fb"><i class="bi bi-facebook"></i>  Facebook</a></li>
-                    <li class="footer__item--redes"><a href="#" class="footer__btn--ig"><i class="bi bi-instagram"></i>  Instagram</a></li>
-                    <li class="footer__item--redes"><a href="#" class="footer__btn--tiktok"><i class="bi bi-tiktok"></i>  TikTok</a></li>
-                    <li class="footer__item--redes"><a href="#" class="footer__btn--wsp"><i class="bi bi-whatsapp"></i>  WhatsApp</a></li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-4">
-                <h3 class="footer__title--subscribe">Recibe novedades de nuestros productos!</h3>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Dirección de Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="tunombre@email.com">
+    <!-- ===============NAVBAR BOTTOM=============== -->
+    <footer class="text-bg-dark p-3 footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="lista-centrada">
+                        <li>
+                            <h3 class="footer__title--zpc">zComputación</h3>
+                        </li>
+                        <li class="footer__item--index">
+                            <a class="footer__btn--nav" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="footer__item--index">
+                            <a class="footer__btn--nav" href="./hardware.html">Hardware</a>
+                        </li>
+                        <li class="footer__item--index">
+                            <a class="footer__btn--nav" href="./software.html">Software</a>
+                        </li>
+                        <li class="footer__item--index">
+                            <a class="footer__btn--nav" href="./nuestros-servicios.html">¡Pedí un técnico!</a>
+                        </li>
+                        <li class="footer__item--index">
+                            <a class="footer__btn--nav" href="./contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <ul class="lista-centrada">
+                        <li>
+                            <h3 class="footer__title--seguinos">Seguinos en nuestras redes</h3>
+                        </li>
+                        <li class="footer__item--redes"><a href="#" class="footer__btn--fb"><i
+                                    class="bi bi-facebook"></i> Facebook</a></li>
+                        <li class="footer__item--redes"><a href="#" class="footer__btn--ig"><i
+                                    class="bi bi-instagram"></i> Instagram</a></li>
+                        <li class="footer__item--redes"><a href="#" class="footer__btn--tiktok"><i
+                                    class="bi bi-tiktok"></i> TikTok</a></li>
+                        <li class="footer__item--redes"><a href="#" class="footer__btn--wsp"><i
+                                    class="bi bi-whatsapp"></i> WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="footer__title--subscribe">Recibe novedades de nuestros productos!</h3>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Dirección de Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="tunombre@email.com">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 </body>
-
-
 </html>
