@@ -63,6 +63,10 @@
   }
 }
 
+.header {
+  margin-bottom: 15px;
+}
+
 .footer {
   margin-top: 20px;
 }
@@ -89,7 +93,7 @@
   margin-bottom: 5px;
 }
 .footer__btn--ig {
-  background-color: #3f729b;
+  background-color: #dd2a7b;
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;

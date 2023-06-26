@@ -98,7 +98,9 @@ $color-principal: blue;
         }
     }
 }
-
+.header{
+    margin-bottom: 15px;
+}
 .footer{
     margin-top: 20px;
     &__item{
@@ -116,23 +118,23 @@ $color-principal: blue;
     &__btn{
         &--fb{
             background-color: #207ce6;
-            @include btn
+            @include btn;
         }
         &--ig{
-            background-color: #3f729b;
-            @include btn
+            background-color: #dd2a7b;
+            @include btn;
         }
         &--tiktok{
             background-color: black;
-            @include btn
+            @include btn;
         }
         &--wsp{
             background-color: rgb(68, 206, 68);
-            @include btn
+            @include btn;
         }
         &--nav{
             background-color: #207ce6;
-            @include btn
+            @include btn;
         }
     }
 }
