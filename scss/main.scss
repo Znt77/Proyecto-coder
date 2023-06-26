@@ -9,10 +9,11 @@
         }
     }
 }
-@mixin btn{
+
+@mixin btn {
     font-size: 1rem;
     font-weight: bold;
-    text-decoration:none;
+    text-decoration: none;
     padding: 5px;
     text-align: center;
     color: #fff;
@@ -20,7 +21,8 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
-@mixin ul-centrada{
+
+@mixin ul-centrada {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,92 +99,112 @@ $color-principal: blue;
         }
     }
 }
-.header{
+
+.header {
     margin-bottom: 15px;
 }
-.footer{
+
+.footer {
     margin-top: 20px;
-    &__item{
-        &--index{
+
+    &__item {
+        &--index {
             margin-top: 10px;
             margin-bottom: 10px;
             list-style-type: none;
         }
-        &--redes{
+
+        &--redes {
             margin-top: 10px;
             margin-bottom: 10px;
             list-style-type: none;
         }
     }
-    &__btn{
-        &--fb{
+
+    &__btn {
+        &--fb {
             background-color: #207ce6;
             @include btn;
         }
-        &--ig{
+
+        &--ig {
             background-color: #dd2a7b;
             @include btn;
         }
-        &--tiktok{
+
+        &--tiktok {
             background-color: black;
             @include btn;
         }
-        &--wsp{
+
+        &--wsp {
             background-color: rgb(68, 206, 68);
             @include btn;
         }
-        &--nav{
+
+        &--nav {
             background-color: #207ce6;
             @include btn;
         }
     }
 }
-.lista-centrada{
+
+.lista-centrada {
     @include ul-centrada;
 }
-.filtro{
+
+.filtro {
     background-image: url(../img/formato-historia-z.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    &__btn{
-        &--mices{
+
+    &__btn {
+        &--mices {
             background-color: #2B59C3;
             @include btn;
         }
-        &--keyboards{
+
+        &--keyboards {
             background-color: #253C78;
             @include btn;
         }
-        &--vcards{
+
+        &--vcards {
             background-color: #E2B6CF;
             @include btn;
         }
-        &--headphones{
+
+        &--headphones {
             background-color: #E396DF;
             @include btn;
         }
-        &--mic{
+
+        &--mic {
             background-color: #E365C1;
             @include btn;
         }
-        &--programas{
+
+        &--programas {
             background-color: #EAC435;
             @include btn;
         }
-        &--linux{
+
+        &--linux {
             background-color: #e65f20;
             @include btn;
         }
-        &--windows{
+
+        &--windows {
             background-color: #61abff;
             @include btn;
         }
     }
 }
-.escalar{
-    &:hover{
+
+.escalar {
+    &:hover {
         transition-duration: 0.2s;
         transition-property: all;
         transition-timing-function: ease;
