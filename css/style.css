@@ -51,17 +51,6 @@
   --bs-btn-disabled-border-color: #207ce6;
   --bs-gradient: none;
 }
-.btn__navbar--search:hover [transition-style="in:circle:center"] {
-  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
-}
-@keyframes circle-in-center {
-  from {
-    clip-path: circle(0%);
-  }
-  to {
-    clip-path: circle(125%);
-  }
-}
 
 .header {
   margin-bottom: 15px;
@@ -139,6 +128,15 @@
   border-radius: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.lista-centrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -20,7 +20,14 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+@mixin ul-centrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
 .filtro {
     position: fixed;
 }
@@ -90,11 +97,6 @@ $color-principal: blue;
             --bs-btn-disabled-bg: transparent;
             --bs-btn-disabled-border-color: #207ce6;
             --bs-gradient: none;
-            &:hover
-            [transition-style="in:circle:center"] {
-                @include btn-estilizado;
-                animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-center both;
-            }
         }
     }
 }
@@ -137,4 +139,7 @@ $color-principal: blue;
             @include btn;
         }
     }
+}
+.lista-centrada{
+    @include ul-centrada;
 }
